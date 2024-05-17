@@ -1,0 +1,100 @@
+.poi{
+	background-color: antiquewhite;
+
+
+}
+
+.lu{
+	background-color: wheat;
+}
+
+.pui{background-color: lightblue;
+
+}
+
+.fui{
+	font-weight: bolder;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* Taille de police globale */
+body {
+    font-size: 18px;
+}
+
+/* Tableau */
+.tableau {
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.tableau th, .tableau td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Formulaire */
+.formulaire {
+    font-size: 18px;
+    width: 500px;
+    margin: 0 auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formulaire-interieur {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulaire label {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.formulaire input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Boutons */
+.bouton-ajouter {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+.bouton-modifier {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+.bouton-accueil {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+
+.bouton-supprimer {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
